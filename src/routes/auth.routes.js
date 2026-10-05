@@ -1,0 +1,15 @@
+const express = require("express");
+const { model } = require("mongoose");
+
+const authController = require("../controllers/auth.controller");
+const router = express.Router();
+
+//  post /api/auth/register
+router.post("/register", authController.userRegisterController);
+
+//  post /api/auth/login
+router.post("/login", authController.userLoginController);
+//  post /api/auth/logout
+router.post("/logout", authController.userLogoutController);
+
+module.exports = router;
