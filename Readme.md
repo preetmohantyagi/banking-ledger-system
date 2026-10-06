@@ -9,23 +9,23 @@ The project follows a **modular and layered backend architecture**, separating r
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 👤 Account management
-- 💳 Debit and Credit transaction handling
-- 📒 Ledger-based transaction tracking
-- 💰 Automatic account balance calculation
-- 🔄 RESTful API architecture
-- 🗄️ MongoDB database integration
-- 🧩 Mongoose schemas and models
-- 🛡️ Middleware-based request processing
-- 📁 Modular backend architecture
-- ⚙️ Environment-based configuration
-- 🔗 Separation of routes, controllers, services, and models
+-  Account management
+-  Debit and Credit transaction handling
+-  Ledger-based transaction tracking
+-  Automatic account balance calculation
+-  RESTful API architecture
+-  MongoDB database integration
+-  Mongoose schemas and models
+-  Middleware-based request processing
+-  Modular backend architecture
+-  Environment-based configuration
+-  Separation of routes, controllers, services, and models
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |---|---|
@@ -39,7 +39,7 @@ The project follows a **modular and layered backend architecture**, separating r
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 The application follows a modular backend architecture where each layer has a specific responsibility.
 
@@ -128,7 +128,7 @@ banking-ledger-system/
 
 ---
 
-# 🧩 Architecture Components
+#  Architecture Components
 
 ## Routes
 
@@ -354,7 +354,7 @@ Balance = ₹12,000
 
 ---
 
-# 🧮 Balance Calculation Flow
+#  Balance Calculation Flow
 
 The account balance is calculated by aggregating ledger transactions belonging to the account.
 
@@ -385,7 +385,7 @@ MongoDB aggregation is used to calculate the total debit and credit values for a
 
 ---
 
-# 💳 Transaction Flow
+#  Transaction Flow
 
 When a new transaction is created, it follows the backend flow:
 
